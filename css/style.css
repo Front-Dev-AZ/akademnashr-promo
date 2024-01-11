@@ -1,4 +1,10 @@
 /* SITE-HEADER */
+body{
+  font-family:roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
 .site-header{
   background-color: #fff;
 }
@@ -19,8 +25,6 @@
   color: #fff;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
   text-decoration: none;
   background-color: #FF7500;
   list-style: none;
@@ -40,19 +44,15 @@
 }
 
 .hero-heading{
+  font-family: roboto condensed;
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 .hero-img{
   width: 510px;
   height: 510px;
 }
-.hero-text{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
+
 
 /* FUTURES */
 .future{
@@ -60,10 +60,10 @@
   list-style: none;
 }
 .features-heading{
+  font-family: roboto condensed;
   width: 440px;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 
 }
 .future-icon-wrapper{
@@ -76,17 +76,15 @@
   color: #FF7500;
 }
 .future-title{
+  font-family: roboto condensed;
   font-style: 24px;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
+  line-height: 1
   color: #000;
 }
 .features-info{
-  font-style: 16px;
   font-weight: 400px;
   line-height: 1.5;
-  letter-spacing: 0.5px;
   color: #000;
 }
 
@@ -101,18 +99,15 @@
 
 }
 .promo-heading{
+  font-family: roboto condensed;
   color: #fff;
   font-style: 40px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 .promo-info{
   color: #fff;
-  font-style: 16px;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 .promo-img{
@@ -129,6 +124,7 @@
   list-style: none;
 }
 .site-footer-links a{
+  line-height: 19px;
   text-decoration: none;
   color: #252420;
   font-size: 16px;
